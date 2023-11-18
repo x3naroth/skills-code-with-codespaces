@@ -1,2 +1,4 @@
- ,
- "postCreateCommand": "echo '# Writing code upon codespace creation!'  >> codespace.md"
+#!/bin/bash
+
+sudo apt-get update
+sudo apt-get install sl
